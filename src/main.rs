@@ -24,7 +24,7 @@ async fn main() {
         ..Default::default()
     };
 
-    // create Spotify client instancee with config
+    // create Spotify client instance with config
     let spotify: AuthCodeSpotify = AuthCodeSpotify::with_config(creds, oauth, config);
 
     // get authorize url and prompt for token if not cached
