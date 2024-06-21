@@ -1,7 +1,5 @@
-// use random_string::generate;
 use rspotify::{model::{AdditionalType, PlayableItem}, prelude::*, scopes, AuthCodeSpotify, Credentials, OAuth, Config};
 
-// const CHARSET: &str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
 const LYRICS_API: &str = "https://lyrics.astrid.sh/api/search/";
 
 
