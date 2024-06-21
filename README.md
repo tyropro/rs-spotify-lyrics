@@ -11,6 +11,11 @@ This is a simple project that uses the Spotify API to grab your currently playin
 5. Run the app: `cargo run --release`
 6. Follow the instructions in the CLI. You will be redirected a Spotify Login Page, login and authorise the app (this is the one you made). You will then be redirected to a web page that should be blank. Copy the URL and paste it into the CLI. You will only have to do this once as your token is cached
 
+## Credits
+
+- [RSpotify](https://github.com/ramsayleung/rspotify): A full-featured Spotify API wrapper for Rust
+- [Astridlol's Lyrics](https://github.com/astridlol/lyrics): A really easy and free to use API for getting song lyrics without an API key.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
